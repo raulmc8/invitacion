@@ -1,0 +1,434 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:  62.5%
+}
+
+header{
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+}
+
+header h2{
+    letter-spacing: 2px;
+    margin: 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+header h1{
+    margin: 10px auto;
+    font-family:'Hurricane', cursive; 
+    font-size: 7rem;
+    color: brown;
+}
+header a{
+ text-decoration: none;
+ background-color: aliceblue;
+ height: 30px;
+ width: 100px;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.nuestra_historia{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color:antiquewhite;
+    width: 100%;
+}
+
+.nuestra_historia img{
+    width: 200px;
+    height: auto;
+}
+
+.nuestra_historia h2{
+    font-family: 'Hurricane', cursive; ;
+    font-size: 3rem;
+    color:brown;
+}
+.nuestra_historia p{
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+    font-size: 1.8rem;
+    margin: 20px auto;
+  
+}
+
+.nuestra_historia img {
+    margin: 20px auto;
+   width: 320px;
+}
+
+.nuestra_historia h3{
+    font-family: 'Hurricane', cursive;
+    font-size: 4rem;
+    color: brown;
+    margin-bottom: 10px;
+}
+.nuestros_padres{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color:antiquewhite;
+   text-align: center;
+   
+}
+.nuestros_padres h2{
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+}
+.nuestros_padres img{
+    margin: 20px auto;
+    width: 320px;
+    height: auto
+}
+
+.nuestros_padres p{
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    justify-self: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin: 20px auto;  
+    
+  
+}
+.nuestros_padres .nuestros_padres_nombre_novia p {
+    font-family: 'Hurricane', cursive;
+}
+
+
+.nuestros_padres .nuestros_padres_nombre_novio p {
+    font-family: 'Hurricane', cursive;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Hurricane', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: brown;
+    background-color: antiquewhite;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color: antiquewhite;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .lugar_hora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+  }
+
+  .lugar_hora img{
+    width: 200px;
+    height: auto;
+  }
+
+  .lugar_hora h2 {
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+  }
+
+  .lugar_hora h3 {
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+    font-size: 1.8rem;
+    margin: 20px auto;
+  }
+
+  
+
+  .box1{
+      width: 50%;
+      font-size: 1.8rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+      margin: 20px auto;
+  }
+  .box1 img{
+      width: 50px;
+  }
+
+  .box2{
+    width: 50%;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 20px auto;
+  }
+  .box2 img{
+      width: 50px;
+  }
+
+
+  .box3{
+    width: 50%;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 20px auto;
+  }
+  .box3 img{
+      width: 50px;
+  }
+
+  .mesa_regalos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+  }
+
+  .mesa_regalos img {
+    
+        width: 200px;
+        height: auto;
+  }
+
+  .mesa_regalos h2{
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+  }
+
+  .mesa_regalos p {
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+    font-size: 1.8rem;
+    margin: 20px auto;
+  }
+
+  .mesa_regalos .sobre{
+      width: 50px;
+  }
+
+  .reglas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+  }
+
+  .reglas h2{
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+  }
+
+  .reglas p{
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+  }
+
+  .reglas img {
+      width: 50px;
+  }
+
+  .amenidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+  }
+  .amenidades img {
+      width: 200px;
+      height: auto;
+  }
+
+  .amenidades h2{
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+  }
+
+  .amenidades p{
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+  }
+
+  .amenidades .copa{
+      width: 50px;
+  }
+
+  .hashtag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+  }
+
+  .hashtag img{
+    width: 200px;
+    height: auto;
+  }
+
+  .hashtag h2{
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+  }
+
+  .hashtag p{
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+
+  .hashtag .hashtag_foto{
+      width: 500px;
+      height: auto;
+  }
+
+  .asistencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+  }
+.asistencia p{
+    font-size: 4rem;
+    font-family: 'Hurricane', cursive;
+    color: brown;
+    margin-bottom: 10px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:azure;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
